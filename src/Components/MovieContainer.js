@@ -8,6 +8,7 @@ import Search from "./Search";
 function MovieContainer() {
 
     const [movieData, setMovieData] = useState([]);
+    const [search, setSearch] = useState('');
 
     useEffect(() => {
         fetch("http://localhost:4000/movies")
@@ -24,7 +25,7 @@ function MovieContainer() {
 return (
     <>
     
-    <Search />
+    <Search search={search} />
     <AddMovie />
     
     
