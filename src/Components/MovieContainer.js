@@ -18,7 +18,9 @@ function MovieContainer() {
           })
       }, []);
 
-
+      const searchMovie = (e) => {
+        setSearch(e.target.value);
+      }
 
 
 
