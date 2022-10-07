@@ -88,3 +88,8 @@ header{
   color: tomato;
   background-color: transparent;
 }
+
+.form {
+  justify-content: center;
+  display: flex;
+}
