@@ -3,7 +3,7 @@ import AddMovie from "./AddMovie";
 import Movie from "./Movie";
 import Search from "./Search";
 
-
+const apiHost = "https://movie-app-react-11.herokuapp.com/movies"
 
 function MovieContainer() {
 
@@ -11,7 +11,7 @@ function MovieContainer() {
     const [search, setSearch] = useState('');
 
     useEffect(() => {
-        fetch("http://localhost:4000/movies")
+        fetch(apiHost)
           .then((res) => res.json())
           .then((movieData) => {
             setMovieData(movieData)
@@ -20,7 +20,7 @@ function MovieContainer() {
 
 
       function postMovies(movieData){
-        fetch("http://localhost:4000/movies", {
+        fetch(apiHost, {
           method: "POST",
           headers: {
             "Content-Type": "application/json"
