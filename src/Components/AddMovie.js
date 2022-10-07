@@ -17,6 +17,12 @@ function AddMovie({postMovies}) {
         }));
       }
 
+      function handleSubmit(event) {
+        event.preventDefault();
+        postMovies(formData);
+        setFormData(initialValues)
+      }
+
     return (
     <div className="ui segment">
       <form onSubmit={handleSubmit} className="ui form">
