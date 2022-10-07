@@ -1,7 +1,130 @@
 {
   "movies": [
     {
-     
+      "id": 1,
+      "name": "Hocus Pocus 2",
+      "image": "https://www.themoviedb.org/t/p/w220_and_h330_face/7ze7YNmUaX81ufctGqt0AgHxRtL.jpg",
+      "overview": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ",
+      "ratings": 8
+    },
+    {
+      "id": 2,
+      "name": "Fall",
+      "image": "https://www.themoviedb.org/t/p/w220_and_h330_face/spCAxD99U1A6jsiePFoqdEcY0dG.jpg",
+      "overview": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ",
+      "ratings": 14
+    },
+    {
+      "id": 3,
+      "name": "Bullet Train",
+      "image": "https://www.themoviedb.org/t/p/w220_and_h330_face/tVxDe01Zy3kZqaZRNiXFGDICdZk.jpg",
+      "overview": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ",
+      "ratings": 3
+    },
+    {
+      "id": 4,
+      "name": "After Ever Happy",
+      "image": "https://www.themoviedb.org/t/p/w220_and_h330_face/6b7swg6DLqXCO3XUsMnv6RwDMW2.jpg",
+      "overview": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ",
+      "ratings": 4
+    },
+    {
+      "id": 5,
+      "name": "Beast",
+      "image": "https://www.themoviedb.org/t/p/w220_and_h330_face/xIGr7UHsKf0URWmyyd5qFMAq4d8.jpg",
+      "overview": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ",
+      "ratings": 1
+    },
+    {
+      "id": 6,
+      "name": "Pinocchio",
+      "image": "https://www.themoviedb.org/t/p/w220_and_h330_face/g8sclIV4gj1TZqUpnL82hKOTK3B.jpg",
+      "overview": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ",
+      "ratings": 2
+    },
+    {
+      "id": 7,
+      "name": "Lou",
+      "image": "https://www.themoviedb.org/t/p/w220_and_h330_face/djM2s4wSaATn4jVB33cV05PEbV7.jpg",
+      "overview": "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ",
+      "ratings": 0
+    },
+    {
+      "id": 8,
+      "name": "Thor: Love and Thunder",
+      "image": "https://www.themoviedb.org/t/p/w220_and_h330_face/pIkRyD18kl4FhoCNQuWxWu5cBLM.jpg",
+      "overview": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+      "ratings": 10
+    },
+    {
+      "name": "Avatar",
+      "image": "https://www.themoviedb.org/t/p/w220_and_h330_face/jRXYjXNq0Cs2TcJjLkki24MLp7u.jpg",
+      "overview": "This is a Perfect Movie",
+      "ratings": "12",
+      "id": 9
+    },
+    {
+      "name": "Avatar",
+      "image": "https://www.themoviedb.org/t/p/w220_and_h330_face/jRXYjXNq0Cs2TcJjLkki24MLp7u.jpg",
+      "overview": "This is a Perfect Movie",
+      "ratings": "5",
+      "id": 10
+    },
+    {
+      "name": "Avatar",
+      "image": "https://www.themoviedb.org/t/p/w220_and_h330_face/jRXYjXNq0Cs2TcJjLkki24MLp7u.jpg",
+      "overview": "This is a Perfect Movie",
+      "ratings": "5",
+      "id": 11
+    },
+    {
+      "name": "Dragon Ball Super: Super Hero",
+      "image": "https://www.themoviedb.org/t/p/w220_and_h330_face/rugyJdeoJm7cSJL1q4jBpTNbxyU.jpg",
+      "overview": "Action Movie",
+      "ratings": "6",
+      "id": 12
+    },
+    {
+      "name": "Naruto Shippuden the Movie",
+      "image": "https://www.themoviedb.org/t/p/w220_and_h330_face/vDkct38sSFSWJIATlfJw0l3QOIR.jpg",
+      "overview": "Animation",
+      "ratings": "4",
+      "id": 13
+    },
+    {
+      "name": "Smile",
+      "image": "https://www.themoviedb.org/t/p/w220_and_h330_face/hiaeZKzwsk4y4atFhmncO5KRxeT.jpg",
+      "overview": "Action Movie",
+      "ratings": "5",
+      "id": 14
+    },
+    {
+      "name": "Sniper: Rogue Mission",
+      "image": "https://www.themoviedb.org/t/p/w220_and_h330_face/jSL5TqroJsDAIgBdELBwby1uhf1.jpg",
+      "overview": "Action Movie",
+      "ratings": "5",
+      "id": 15
+    },
+    {
+      "name": "Bullet Proof",
+      "image": "https://www.themoviedb.org/t/p/w220_and_h330_face/cj6YmTAU7Jvn3w6d2NfjQzpX7Pw.jpg",
+      "overview": "Action Movie",
+      "ratings": "9",
+      "id": 16
+    },
+    {
+      "name": "The Next 365 Days",
+      "image": "https://www.themoviedb.org/t/p/w220_and_h330_face/6FsGeIp7heHm5eh4tIxTzHIRxmt.jpg",
+      "overview": "This is an interesting Movie",
+      "ratings": "7",
+      "id": 17
+    },
+    {
+      "name": "The Exorcism of God",
+      "image": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/hangTmbxpSV4gpHG7MgSlCWSSFa.jpg",
+      "overview": "An American priest working in Mexico is considered a saint by many local parishioners. However, due to a botched exorcism, he carries a secret that’s eating him alive until he gets an opportunity to face his demon one final time.",
+      "ratings": "7.3",
+      "id": 18
     }
   ]
-  }
+}

@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 
 const initialValues = { name: "", image: "", overview: "", ratings: "" };
 function AddMovie({ postMovies }) {
