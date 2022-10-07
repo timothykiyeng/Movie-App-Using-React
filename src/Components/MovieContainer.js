@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import AddMovie from "./AddMovie";
 import Movie from "./Movie";
 import Search from "./Search";
@@ -7,6 +7,7 @@ import Search from "./Search";
 
 function MovieContainer() {
 
+    const [movieData, setMovieData] = useState([]);
 
 
 
@@ -14,8 +15,17 @@ function MovieContainer() {
 
 
 
-
-
+return (
+    <>
+    
+    <Search />
+    <AddMovie />
+    
+    
+    
+    </>
+   
+)
 
 
 
@@ -30,3 +40,5 @@ function MovieContainer() {
 
 
 }
+
+export default MovieContainer
