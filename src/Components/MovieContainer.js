@@ -44,7 +44,17 @@ return (
     <br></br>
     <AddMovie postMovies={postMovies}/>
     <br></br>
-    
+    <div className="movie-container">
+      {movieData.filter((movie)=>{
+          if(search === ""){
+            return movie;
+          }else if(movie.name.toLowerCase().includes(search.toLowerCase())){
+            return movie;
+          }
+        })?.map((displayMovieItem) => (
+          <Movie key={displayMovieItem.id}  displayMovieItems={displayMovieItem} />
+        ))}
+      </div>
     
     
     </>
