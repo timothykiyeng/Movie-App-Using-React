@@ -39,3 +39,11 @@ body{
 .movie span{
   font-size: 110%;
 }
+
+.movie-container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
