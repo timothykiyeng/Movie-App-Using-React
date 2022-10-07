@@ -3,8 +3,21 @@ import React from 'react'
 
 const initialValues = { name: "", image: "", overview: "", ratings: "" };
 function AddMovie({postMovies}) {
+  
+  
+  
+  
+  
     const [formData, setFormData] = useState(initialValues);
-  return (
+
+    function handleChange(event) {
+        setFormData((formData) => ({
+          ...formData,
+          [event.target.name]: event.target.value,
+        }));
+      }
+
+    return (
     <div className="ui segment">
       <form onSubmit={handleSubmit} className="ui form">
         <div className="inline fields">
