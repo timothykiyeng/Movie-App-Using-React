@@ -1,29 +1,23 @@
-import React from 'react'
-
+import React from "react";
 
 const initialValues = { name: "", image: "", overview: "", ratings: "" };
-function AddMovie({postMovies}) {
-  
-  
-  
-  
-  
-    const [formData, setFormData] = useState(initialValues);
+function AddMovie({ postMovies }) {
+  const [formData, setFormData] = useState(initialValues);
 
-    function handleChange(event) {
-        setFormData((formData) => ({
-          ...formData,
-          [event.target.name]: event.target.value,
-        }));
-      }
+  function handleChange(event) {
+    setFormData((formData) => ({
+      ...formData,
+      [event.target.name]: event.target.value,
+    }));
+  }
 
-      function handleSubmit(event) {
-        event.preventDefault();
-        postMovies(formData);
-        setFormData(initialValues)
-      }
+  function handleSubmit(event) {
+    event.preventDefault();
+    postMovies(formData);
+    setFormData(initialValues);
+  }
 
-    return (
+  return (
     <div className="ui segment">
       <form onSubmit={handleSubmit} className="ui form">
         <div className="inline fields">
@@ -67,7 +61,7 @@ function AddMovie({postMovies}) {
         </button>
       </form>
     </div>
-  )
+  );
 }
 
-export default AddMovie
+export default AddMovie;
