@@ -54,3 +54,17 @@ body{
   align-items: center;
   justify-content: space-between;
 }
+
+.movie-overview{
+  position: absolute;
+  background-color: aliceblue;
+  bottom: 0;
+  padding: 0.7rem;
+  left: 0;
+  right: 0;
+  transform: translateY(102%);
+  transition: transform 0.3s ease-in-out;
+  overflow: auto;
+  max-height: 100%;
+
+}
