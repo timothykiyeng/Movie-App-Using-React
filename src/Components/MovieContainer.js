@@ -51,6 +51,7 @@ return (
           }else if(movie.name.toLowerCase().includes(search.toLowerCase())){
             return movie;
           }
+          return false
         })?.map((displayMovieItem) => (
           <Movie key={displayMovieItem.id}  displayMovieItems={displayMovieItem} />
         ))}
