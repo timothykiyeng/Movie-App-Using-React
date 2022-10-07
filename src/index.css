@@ -68,3 +68,13 @@ body{
   max-height: 100%;
 
 }
+
+.movie:hover .movie-overview{
+  transform: translateX(0);
+}
+
+header{
+  padding: 0.5rem;
+  justify-content: center;
+  display: flex;
+}
