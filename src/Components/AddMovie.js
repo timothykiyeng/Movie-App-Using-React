@@ -2,9 +2,52 @@ import React from 'react'
 
 
 const initialValues = { name: "", image: "", overview: "", ratings: "" };
-function AddMovie() {
+function AddMovie({postMovies}) {
+    const [formData, setFormData] = useState(initialValues);
   return (
-    <div>AddMovie</div>
+    <div className="ui segment">
+      <form onSubmit={handleSubmit} className="ui form">
+        <div className="inline fields">
+          <input
+            type="text"
+            name="name"
+            value={formData.name}
+            placeholder="Name of Movie"
+            onChange={handleChange}
+            required
+          />
+          <input
+            type="text"
+            name="image"
+            placeholder="Image"
+            value={formData.image}
+            onChange={handleChange}
+            required
+          />
+          <input
+            type="text"
+            name="overview"
+            placeholder="Overview"
+            value={formData.overview}
+            onChange={handleChange}
+            required
+          />
+          <input
+            type="number"
+            name="ratings"
+            placeholder="Ratings"
+            step="1"
+            value={formData.ratings}
+            onChange={handleChange}
+            required
+          />
+        </div>
+
+        <button className="ui button" type="submit">
+          Add Movie
+        </button>
+      </form>
+    </div>
   )
 }
 
