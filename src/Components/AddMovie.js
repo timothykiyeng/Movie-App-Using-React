@@ -60,7 +60,7 @@ function AddMovie({ postMovies }) {
           />
         </div>
 
-        <button className="ui button" type="submit">
+        <button className="button" type="submit">
           Add Movie
         </button>
       </form>
