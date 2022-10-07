@@ -22,6 +22,7 @@ function AddMovie({ postMovies }) {
       <form onSubmit={handleSubmit} className="ui form">
         <div className="inline fields">
           <input
+          className="add-movie"
             type="text"
             name="name"
             value={formData.name}
@@ -30,6 +31,7 @@ function AddMovie({ postMovies }) {
             required
           />
           <input
+          className="add-movie"
             type="text"
             name="image"
             placeholder="Image"
@@ -38,6 +40,7 @@ function AddMovie({ postMovies }) {
             required
           />
           <input
+          className="add-movie"
             type="text"
             name="overview"
             placeholder="Overview"
@@ -46,6 +49,7 @@ function AddMovie({ postMovies }) {
             required
           />
           <input
+          className="add-movie"
             type="number"
             name="ratings"
             placeholder="Ratings"

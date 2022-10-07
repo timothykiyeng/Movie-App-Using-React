@@ -125,6 +125,20 @@
       "overview": "An American priest working in Mexico is considered a saint by many local parishioners. However, due to a botched exorcism, he carries a secret that’s eating him alive until he gets an opportunity to face his demon one final time.",
       "ratings": "7.3",
       "id": 18
+    },
+    {
+      "name": "Minions: The Rise of Gru",
+      "image": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/wKiOkZTN9lUUUNZLmtnwubZYONg.jpg",
+      "overview": "A fanboy of a supervillain supergroup known as the Vicious 6, Gru hatches a plan to become evil enough to join them, with the backup of his followers, the Minions.",
+      "ratings": "5",
+      "id": 19
+    },
+    {
+      "name": "Dahmer (2002)",
+      "image": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/gZPrXBXYf2s4VztHdQpd0441jF6.jpg",
+      "overview": "On February 15, 1992 in Milwaukee, Wisconsin, Jeffrey Dahmer, one of the world's most infamous serial killers, was convicted of 15 counts of murder and sentenced to 937 years in federal prison. This movie is based on events from his life.",
+      "ratings": "6",
+      "id": 20
     }
   ]
 }
