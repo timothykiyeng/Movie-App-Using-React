@@ -18,6 +18,19 @@ function MovieContainer() {
           })
       }, []);
 
+
+      function postMovies(movieData){
+        fetch("http://localhost:4000/movies", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify(movieData)
+        })
+        .then(res => res.json())
+        .then(newMovie => setMovieData(movieData => [...movieData, newMovie]))
+      }
+
       const searchMovie = (e) => {
         setSearch(e.target.value);
       }
@@ -27,8 +40,10 @@ function MovieContainer() {
 return (
     <>
     
-    <Search search={search} />
-    <AddMovie />
+    <Search search={search} onSearchChange={searchMovie} />
+    <br></br>
+    <AddMovie postMovies={postMovies}/>
+    <br></br>
     
     
     
